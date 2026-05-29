@@ -6,10 +6,6 @@ categories: [Blueberry Picker]
 tags: [planning, phase-2, robotics]
 ---
 
-# Building a Blueberry Picker, Phase 2 Planning
-
-*May 27, 2026*
-
 Phase 1 is done and Phase 2 is underway — the SO-101 arm kit is in hand, parts are printing, and the first servo IDs are getting configured. Before diving into code, this post captures the planning decisions made for Phase 2 and how they shape Phase 3.
 
 ## Where Phase 2 Starts

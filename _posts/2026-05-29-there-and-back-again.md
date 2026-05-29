@@ -6,10 +6,6 @@ categories: [Linux]
 tags: [linux, dwm, xrdp, debugging, dotfiles]
 ---
 
-# There and Back Again: A Story of Nuking Your Login with Claude and Fixing It with Claude
-
-*May 29, 2026*
-
 This is not a blueberry post. This is a post about logging into your own computer and getting nothing but a shell for two days, and what it took to trace that back to its source. Claude caused half of it and fixed all of it.
 
 ## The Setup

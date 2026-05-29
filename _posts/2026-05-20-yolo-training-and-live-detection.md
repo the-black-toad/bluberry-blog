@@ -6,10 +6,6 @@ categories: [Blueberry Picker, Machine Learning]
 tags: [yolo, yolov8, object-detection, training, inference]
 ---
 
-# Building a Blueberry Picker, Part 3: Training YOLOv8 and Running Live Detection
-
-*May 20, 2026*
-
 Last time I had a labeled dataset but no model. This session: train YOLOv8n, get it running on the live camera rig, and see if it actually detects blueberries in the real world.
 
 ## Dataset Splits and a Common Roboflow Gotcha

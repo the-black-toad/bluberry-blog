@@ -6,8 +6,6 @@ categories: [Computer Vision, Depth Estimation]
 tags: [stereo, disparity, point-cloud, sgbm, open3d]
 ---
 
-# Pixels Become Points
-
 *Or: how I built a working stereo depth pipeline, then spent half a day learning that side views of point clouds are a lie.*
 
 This is the third post in a series documenting a multi-camera point cloud project. The [first post](setup_and_calibration.md) covered environment setup and per-camera intrinsic calibration. The [second](extrinsic_calibration.md) covered extrinsic calibration — the spatial relationships between three cameras. This one covers the payoff: turning all that calibration into actual depth measurements and 3D points.

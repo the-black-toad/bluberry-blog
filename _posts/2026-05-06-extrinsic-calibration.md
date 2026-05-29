@@ -6,8 +6,6 @@ categories: [Computer Vision, Setup]
 tags: [opencv, calibration, extrinsics, stereo, multi-camera]
 ---
 
-# Three Cameras, One Coordinate Frame
-
 *Or: how a USB bandwidth detour, a mount built from drilled aluminum, and an evening of patient board-holding produced sub-millimeter spatial calibration.*
 
 This is the second post in a series documenting a multi-camera point cloud project. The [first post](setup_and_calibration.md) covered environment setup and per-camera intrinsic calibration — figuring out each camera's optics. This post covers Step 2: extrinsic calibration. Now that we know what each camera does individually, we figure out where they sit relative to each other in 3D space.

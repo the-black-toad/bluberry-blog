@@ -6,8 +6,6 @@ categories: [Computer Vision, Setup]
 tags: [opencv, python, calibration, intrinsics, webcam]
 ---
 
-# Setting Up a Multi-Camera Computer Vision Project from Scratch
-
 *Or: how three webcams, an Arch Linux laptop, and an evening of debugging produced sub-pixel calibration accuracy.*
 
 This is a writeup of the first two steps of a multi-camera point cloud project: getting a Python computer vision environment running, then calibrating each camera's intrinsic parameters. The goal of this post is partly to document what I did, but mostly to capture the *judgment calls* that aren't obvious from a tutorial — the moments where the path branches and you have to pick.

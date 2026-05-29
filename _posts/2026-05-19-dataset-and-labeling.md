@@ -6,10 +6,6 @@ categories: [Blueberry Picker, Machine Learning]
 tags: [yolo, roboflow, dataset, labeling, data-augmentation]
 ---
 
-# Building a Blueberry Picker, Part 2: Dataset Capture and Labeling
-
-*May 19, 2026*
-
 Last time I got three webcams calibrated and fused into a single point cloud. That's the geometry side of the problem solved. Now it's time to teach the robot what a blueberry actually looks like.
 
 ## The Seasonal Timing Problem

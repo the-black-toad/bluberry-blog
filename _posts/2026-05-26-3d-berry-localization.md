@@ -6,10 +6,6 @@ categories: [Blueberry Picker, Depth Estimation]
 tags: [open3d, point-cloud, stereo, yolo, 3d-localization]
 ---
 
-# Building a Blueberry Picker, Part 4: 3D Berry Localization
-
-*May 26, 2026*
-
 The previous session had a model that could draw bounding boxes around blueberries in a 2D image. This session: figure out where those berries actually are in space.
 
 ## The Problem

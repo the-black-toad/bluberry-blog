@@ -6,10 +6,6 @@ categories: [Blueberry Picker]
 tags: [retrospective, phase-1]
 ---
 
-# Building a Blueberry Picker, Phase 1 Retrospective
-
-*May 26, 2026*
-
 Phase 1 is done. Twenty-two tasks, a multi-camera perception stack, a trained detector, and a working 3D localization pipeline. This post covers what worked, what didn't, how the estimates held up, and whether Phase 2 is worth starting.
 
 ## What Got Built
