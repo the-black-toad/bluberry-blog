@@ -2,6 +2,8 @@
 layout: post
 title: "Building a Blueberry Picker, Part 2: Dataset Capture and Labeling"
 date: 2026-05-19
+categories: [Blueberry Picker, Machine Learning]
+tags: [yolo, roboflow, dataset, labeling, data-augmentation]
 ---
 
 # Building a Blueberry Picker, Part 2: Dataset Capture and Labeling

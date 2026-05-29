@@ -2,6 +2,8 @@
 layout: post
 title: "Setting Up a Multi-Camera Computer Vision Project from Scratch"
 date: 2026-05-05 10:15:00 -0400
+categories: [Computer Vision, Setup]
+tags: [opencv, python, calibration, intrinsics, webcam]
 ---
 
 # Setting Up a Multi-Camera Computer Vision Project from Scratch

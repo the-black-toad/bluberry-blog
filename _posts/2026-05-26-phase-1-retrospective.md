@@ -2,6 +2,8 @@
 layout: post
 title: "Building a Blueberry Picker, Phase 1 Retrospective"
 date: 2026-05-26
+categories: [Blueberry Picker]
+tags: [retrospective, phase-1]
 ---
 
 # Building a Blueberry Picker, Phase 1 Retrospective

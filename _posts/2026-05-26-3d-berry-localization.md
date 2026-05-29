@@ -2,6 +2,8 @@
 layout: post
 title: "Building a Blueberry Picker, Part 4: 3D Berry Localization"
 date: 2026-05-26
+categories: [Blueberry Picker, Depth Estimation]
+tags: [open3d, point-cloud, stereo, yolo, 3d-localization]
 ---
 
 # Building a Blueberry Picker, Part 4: 3D Berry Localization

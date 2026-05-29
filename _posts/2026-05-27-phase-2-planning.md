@@ -2,6 +2,8 @@
 layout: post
 title: "Building a Blueberry Picker, Phase 2 Planning"
 date: 2026-05-27
+categories: [Blueberry Picker]
+tags: [planning, phase-2, robotics]
 ---
 
 # Building a Blueberry Picker, Phase 2 Planning

@@ -2,6 +2,8 @@
 layout: post
 title: "Three Cameras, One Coordinate Frame"
 date: 2026-05-06 21:13:00 -0400
+categories: [Computer Vision, Setup]
+tags: [opencv, calibration, extrinsics, stereo, multi-camera]
 ---
 
 # Three Cameras, One Coordinate Frame

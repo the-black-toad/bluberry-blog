@@ -2,6 +2,8 @@
 layout: post
 title: "Building a Blueberry Picker, Part 3: Training YOLOv8 and Running Live Detection"
 date: 2026-05-20
+categories: [Blueberry Picker, Machine Learning]
+tags: [yolo, yolov8, object-detection, training, inference]
 ---
 
 # Building a Blueberry Picker, Part 3: Training YOLOv8 and Running Live Detection

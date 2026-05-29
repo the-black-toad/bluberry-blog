@@ -2,6 +2,8 @@
 layout: post
 title: "Pixels Become Points"
 date: 2026-05-07 12:38:00 -0400
+categories: [Computer Vision, Depth Estimation]
+tags: [stereo, disparity, point-cloud, sgbm, open3d]
 ---
 
 # Pixels Become Points
