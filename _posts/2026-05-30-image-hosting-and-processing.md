@@ -6,6 +6,10 @@ categories: [Linux]
 tags: [linux, bash, imagemagick, cloudflare, workflow]
 ---
 
+![](https://play-lh.googleusercontent.com/t2xwoWAJPoIHZlYiw82J31fZl40kj962j5DVHohn-Pgn7ZiuoXCl-2_NMyMERa7cCFw)
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/94/Cloudflare_Logo.png)
+
 The blog needed a place to host images that wasn't the repo itself. This post covers the setup: Cloudflare R2 for storage, LocalSend for getting photos off the phone, and a script that strips metadata, resizes, and cleans up originals in one step.
 
 ## Why Not Just Commit Images
