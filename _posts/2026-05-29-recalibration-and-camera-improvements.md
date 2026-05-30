@@ -6,7 +6,7 @@ categories: [Blueberry Picker]
 tags: [calibration, stereo, opencv]
 ---
 
-![](https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/img_5368.jpg)
+![](https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/IMG_5368.jpg)
 
 A new camera mount meant the old extrinsic calibration was invalid. What should have been a 20-minute recapture-and-recalibrate turned into a debugging session that improved the calibration pipeline significantly. This post covers the issues hit along the way and the fixes that came out of it.
 
