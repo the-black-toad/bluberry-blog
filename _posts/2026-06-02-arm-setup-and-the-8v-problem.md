@@ -14,6 +14,8 @@ Six STS3215 servos, 12V variant, Waveshare Bus Servo Adapter (A) controller boar
 
 Nothing about it was straightforward.
 
+![](https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/IMG_5376.jpg)
+
 ## Problem 1: Wrong Driver
 
 The CH343P enumerates as `idVendor=1a86, idProduct=55d3`. On boot, the kernel loads `ch341` — a driver for a different WCH chip — and binds it to this device. The ch341 driver creates `/dev/ttyUSB0` and `/dev/ttyUSB1`, which look correct but fail with `ENODEV` on any write.
@@ -110,11 +112,15 @@ All six motors had the same wrong defaults. The fix was applied to each one befo
 
 The scripts (`check_servo_voltage.py` for diagnosis and fix, `center_servos.py` for pre-assembly centering) are in `arm/` in the project repo.
 
+![](https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/IMG_5377.jpg)
+
 ## Assembly
 
 The SO-101 structural parts are 3D printed. Some joints needed significant sanding before the servo bodies would seat. All faceplates on this build are round — no positional horns — so centering before attachment wasn't needed. The bottom horn press-fits onto the servo's idler nub; the fit was loose enough to require CA glue to stay seated.
 
 The arm is assembled. Calibration is next.
+
+![](https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/IMG_5378.jpg)
 
 ## Summary
 
