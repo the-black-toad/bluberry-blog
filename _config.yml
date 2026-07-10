@@ -2,7 +2,7 @@ lang: en
 timezone: America/New_York
 
 title: A Blog About Building
-tagline: A build log for an autonomous blueberry harvesting robot
+tagline: A build log for an autonomous blueberry harvesting robot<br><br><a href="https://github.com/the-black-toad">github.com/the-black-toad</a>
 avatar: https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev/images/IMG_5319.jpg
 description: >-
   Documenting the development of an autonomous blueberry harvesting robot —
