@@ -1,0 +1,44 @@
+#!/bin/sh
+# Screenshot -> R2 -> markdown snippet for the blog.
+#
+# Usage: shot [name]
+#   Select a region with the mouse; it uploads to the bluberry-blog-images
+#   bucket under images/ and prints the public URL + markdown embed.
+#   [name] becomes the object key (spaces -> dashes); default is a timestamp.
+#
+# Auth: R2-scoped API token in ~/.cloudflare-token (chmod 600).
+
+set -eu
+
+ACCOUNT_ID=27de1dd2bb4556328b0105ae373277f4
+BUCKET=bluberry-blog-images
+PUB_BASE=https://pub-7dccfb8281d647ea908c15e9e1c6a9cb.r2.dev
+TOKEN_FILE="$HOME/.cloudflare-token"
+
+[ -r "$TOKEN_FILE" ] || { echo "error: no token at $TOKEN_FILE" >&2; exit 1; }
+TOKEN=$(cat "$TOKEN_FILE")
+
+name="${1:-$(date +%Y%m%d-%H%M%S)}"
+name=$(echo "$name" | tr ' ' '-' | tr -cd 'A-Za-z0-9._-')
+case "$name" in *.png) ;; *) name="$name.png" ;; esac
+key="images/$name"
+
+tmp=$(mktemp --suffix=.png)
+trap 'rm -f "$tmp"' EXIT
+
+DISPLAY="${DISPLAY:-:0}" maim -s -u "$tmp"
+
+status=$(curl -sS -o /dev/null -w '%{http_code}' -X PUT \
+  "https://api.cloudflare.com/client/v4/accounts/$ACCOUNT_ID/r2/buckets/$BUCKET/objects/$key" \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: image/png" \
+  --data-binary "@$tmp")
+
+if [ "$status" != 200 ]; then
+  echo "error: upload failed (HTTP $status)" >&2
+  exit 1
+fi
+
+url="$PUB_BASE/$key"
+echo "$url"
+echo "![](${url}){: width=\"700\" }"
